@@ -1,13 +1,30 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
-import App from './App';
+
+import 'antd/dist/antd.css';
 import reportWebVitals from './reportWebVitals';
 
+import {BrowserRouter} from "react-router-dom";
+import {renderRoutes} from "react-router-config";
+import routes from "./config/router"
+import BasicLayout from "./layout/BasicLayout";
+
+
+
+function App(){
+    return (
+        <React.Fragment>
+            {/*store 作为 Provider 的属性*/}
+            <BrowserRouter>
+                {renderRoutes(routes)}
+            </BrowserRouter>
+
+        </React.Fragment>
+    )
+}
+
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+    < App/>,
   document.getElementById('root')
 );
 
