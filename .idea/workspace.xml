@@ -7,7 +7,13 @@
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </expand>
-    <select />
+    <select>
+      <path>
+        <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:fixBug20210519" type="e8cecc67:BranchNodeDescriptor" />
+      </path>
+    </select>
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3e7ac32f-e41b-4d46-a8f0-3f471953d2be" name="Default Changelist" comment="1" />
@@ -24,7 +30,15 @@
       </list>
     </option>
   </component>
+  <component name="Git.Merge.Settings">
+    <option name="BRANCH" value="fixBug20210519" />
+  </component>
   <component name="Git.Settings">
+    <option name="RECENT_BRANCH_BY_REPOSITORY">
+      <map>
+        <entry key="$PROJECT_DIR$" value="master" />
+      </map>
+    </option>
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="JsFlowSettings">
@@ -102,9 +116,10 @@
     <recent_temporary>
       <list>
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.eject" />
         <item itemvalue="Node.js.TreeMap.js" />
         <item itemvalue="Node.js.CompanyList.js" />
-        <item itemvalue="npm.eject" />
+        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -146,7 +161,19 @@
       <map>
         <entry key="MAIN">
           <value>
-            <State />
+            <State>
+              <option name="FILTERS">
+                <map>
+                  <entry key="branch">
+                    <value>
+                      <list>
+                        <option value="fixBug20210519" />
+                      </list>
+                    </value>
+                  </entry>
+                </map>
+              </option>
+            </State>
           </value>
         </entry>
       </map>
@@ -174,22 +201,22 @@
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="830" y="419" key="Github.ShareDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1621415566479" />
-    <state width="1870" height="233" key="GridCell.Tab.0.bottom" timestamp="1621400739714">
+    <state width="1870" height="35" key="GridCell.Tab.0.bottom" timestamp="1621416549572">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="233" key="GridCell.Tab.0.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1621400739714" />
-    <state width="1870" height="233" key="GridCell.Tab.0.center" timestamp="1621400739714">
+    <state width="1870" height="35" key="GridCell.Tab.0.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1621416549572" />
+    <state width="1870" height="35" key="GridCell.Tab.0.center" timestamp="1621416549572">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="233" key="GridCell.Tab.0.center/0.0.1920.1035@0.0.1920.1035" timestamp="1621400739714" />
-    <state width="1870" height="233" key="GridCell.Tab.0.left" timestamp="1621400739714">
+    <state width="1870" height="35" key="GridCell.Tab.0.center/0.0.1920.1035@0.0.1920.1035" timestamp="1621416549572" />
+    <state width="1870" height="35" key="GridCell.Tab.0.left" timestamp="1621416549572">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="233" key="GridCell.Tab.0.left/0.0.1920.1035@0.0.1920.1035" timestamp="1621400739714" />
-    <state width="1870" height="233" key="GridCell.Tab.0.right" timestamp="1621400739714">
+    <state width="1870" height="35" key="GridCell.Tab.0.left/0.0.1920.1035@0.0.1920.1035" timestamp="1621416549572" />
+    <state width="1870" height="35" key="GridCell.Tab.0.right" timestamp="1621416549572">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="233" key="GridCell.Tab.0.right/0.0.1920.1035@0.0.1920.1035" timestamp="1621400739714" />
+    <state width="1870" height="35" key="GridCell.Tab.0.right/0.0.1920.1035@0.0.1920.1035" timestamp="1621416549572" />
     <state width="1870" height="363" key="GridCell.Tab.1.bottom" timestamp="1621350691095">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
@@ -242,10 +269,10 @@
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="503" y="158" key="SettingsEditor/0.0.1920.1035@0.0.1920.1035" timestamp="1620835012694" />
-    <state x="549" y="255" key="Vcs.Push.Dialog.v2" timestamp="1621415928301">
+    <state x="549" y="255" key="Vcs.Push.Dialog.v2" timestamp="1621416604343">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state x="549" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1035@0.0.1920.1035" timestamp="1621415928301" />
+    <state x="549" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1035@0.0.1920.1035" timestamp="1621416604343" />
     <state x="462" y="113" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1621339352985">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
@@ -275,7 +302,6 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/component/treemap/TreeMap.js</url>
           <line>247</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="4" />
         </line-breakpoint>
       </breakpoints>

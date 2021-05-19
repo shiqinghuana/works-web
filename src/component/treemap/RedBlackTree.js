@@ -200,15 +200,28 @@ export default class RedBlack extends Component {
         return (
             <React.Fragment>
                 <Space>
-                    <InputNumber max={99999} min={-9999} ref={this.insert = React.createRef()}/>
+                    <InputNumber max={99999} min={-9999} ref={this.insert = React.createRef()}
+                                 onPressEnter={
+                                     (e) => this.put(e.target.value)
+                                 }
+
+                    />
                     <Tooltip title={"为了布局展示优美，输入长度不要超过5位,总节点不多于31"}>
                         <Button type={"primary"} onClick={() => this.put(this.insert.current.value)}> 添加</Button>
                     </Tooltip>
 
-                    <InputNumber max={99999} min={-9999} ref={this.delete = React.createRef()}/>
+                    <InputNumber max={99999} min={-9999} ref={this.delete = React.createRef()}
+                                 onPressEnter={
+                                     (e) => this.remove(e.target.value)
+                                 }
+                    />
                     <Button type={"primary"} onClick={() => this.remove(this.delete.current.value)}> 删除</Button>
 
-                    <InputNumber max={99999} min={-9999} ref={this.find = React.createRef()}/>
+                    <InputNumber max={99999} min={-9999} ref={this.find = React.createRef()}
+
+                                 onPressEnter={
+                                     (e) => this.get(e.target.value)
+                                 }/>
                     <Button type={"primary"} onClick={() => this.get(this.find.current.value)}> 查找</Button>
 
                 </Space>
