@@ -252,7 +252,7 @@ export class Treemap {
         // 重置，解决删除的时候会保留箭头的bug
         this.root.leftArrowOffSet = null
         this.root.rightArrowOffSet = null
-        let result = []; // 返回结果集合
+        let result = []; // 返回结果集合 fix bug
         let sequences = [this.root]; // 每一层的集合
         let e = [], left, right, prent;
 
