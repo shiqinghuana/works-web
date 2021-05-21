@@ -1,4 +1,4 @@
-import {get} from "../../utils/request";
+
 
 
 const RED = false;
@@ -169,7 +169,7 @@ export class Treemap {
         if (k.key === key) {
             return true;
         }
-        if (k.key > key) {
+        if (k.key - key>0) {
             return this.get(key, k.left || false)
         }
         return this.get(key, k.right || false)

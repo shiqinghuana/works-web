@@ -5,18 +5,16 @@ import BasicLayout from "../layout/BasicLayout";
 import {FormOutlined, SendOutlined, SolutionOutlined, RadarChartOutlined} from "@ant-design/icons"
 import React from "react";
 import RedBlackTree from "../component/treemap/RedBlackTree";
-import {AntDesignOutlined} from "@ant-design/icons";
-import {CrownOutlined} from "@ant-design/icons";
 
 
-let Ac = () =>(<div style={{height:"95vh",width:"95vh"} } />)
 
-
+// eslint-disable-next-line import/no-anonymous-default-export
 export default [
+
     {
         path: "/ts",
         component:BasicLayout,
-        name:"三分钟",
+        name:"三分钟快速搭建CURD",
         routes: [
             {
                 path: '/ts/companyList',
@@ -44,7 +42,6 @@ export default [
 
         ]
     },
-    ,
     {
         path:"/gs",
         component:BasicLayout,
@@ -57,11 +54,12 @@ export default [
                 icon: <RadarChartOutlined/>
             }
         ]
-    }
-    ,
+    },
     {
         path: "/",
+        redirect:"/gs/redBlackTree",
         component:BasicLayout,
-        redirect:"/gs"
-    }
+
+    },
+
 ]

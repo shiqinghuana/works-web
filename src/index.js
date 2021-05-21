@@ -7,7 +7,7 @@ import reportWebVitals from './reportWebVitals';
 import {BrowserRouter} from "react-router-dom";
 import {renderRoutes} from "react-router-config";
 import routes from "./config/router"
-import BasicLayout from "./layout/BasicLayout";
+
 
 
 

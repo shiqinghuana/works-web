@@ -1,11 +1,11 @@
 import React, {Component} from 'react';
 
-import {Stage, Layer, Rect, Text} from 'react-konva';
+import {Stage, Layer, Text} from 'react-konva';
 
 import {Circle} from "react-konva";
 import {Arrow} from "react-konva";
 import {Button} from "antd";
-import {Input} from "antd";
+
 import {Space} from "antd";
 import {InputNumber} from "antd";
 
@@ -200,10 +200,17 @@ export default class RedBlack extends Component {
         return (
             <React.Fragment>
                 <Space>
-                    <InputNumber max={99999} min={-9999} ref={this.insert = React.createRef()}
+                    <InputNumber
+                        allowClear={true}
+                        max={99999} min={-9999} ref={this.insert = React.createRef()}
                                  onPressEnter={
-                                     (e) => this.put(e.target.value)
+                                     (e) => {
+                                         this.put(this.insert.current.value)
+                                     }
                                  }
+                        onClick={() =>{
+                            this.insert.current.value = null
+                        }}
 
                     />
                     <Tooltip title={"为了布局展示优美，输入长度不要超过5位,总节点不多于31"}>
@@ -212,16 +219,23 @@ export default class RedBlack extends Component {
 
                     <InputNumber max={99999} min={-9999} ref={this.delete = React.createRef()}
                                  onPressEnter={
-                                     (e) => this.remove(e.target.value)
+                                     (e) => this.remove( this.delete.current.value )
                                  }
+                                 onClick={() =>{
+                                     this.delete.current.value = null
+                                 }}
                     />
                     <Button type={"primary"} onClick={() => this.remove(this.delete.current.value)}> 删除</Button>
 
                     <InputNumber max={99999} min={-9999} ref={this.find = React.createRef()}
 
                                  onPressEnter={
-                                     (e) => this.get(e.target.value)
-                                 }/>
+                                     (e) => this.get(this.find.current.value)
+                                 }
+                                 onClick={() =>{
+                                     this.find.current.value = null
+                                 }}
+                    />
                     <Button type={"primary"} onClick={() => this.get(this.find.current.value)}> 查找</Button>
 
                 </Space>

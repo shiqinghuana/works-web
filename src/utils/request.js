@@ -1,4 +1,4 @@
-import React from 'react';
+
 
 
 
@@ -23,6 +23,7 @@ const errCallBack = (e) => {
     };
 }
 
+// eslint-disable-next-line no-use-before-define
 export const get = (url,errCallBack =errCallBack):Promise=>{
     let init = {
         method: 'get'

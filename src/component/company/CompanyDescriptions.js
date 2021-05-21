@@ -6,7 +6,7 @@ import {message} from "antd";
 import ProTable from '@ant-design/pro-table';
 import {Button} from "antd";
 import {Link} from "react-router-dom";
-import {Form} from "antd";
+
 import {Space} from "antd";
 
 const columns = [
@@ -40,6 +40,7 @@ const columns = [
 
 ]
 
+// eslint-disable-next-line no-unused-vars
 const Company = {
     id: number,
     companyName: String,
@@ -132,7 +133,7 @@ export default class CompanyDescriptions extends React.Component {
                 <br/>
                 <br/>
                 <Space>
-                    <Link to={"/companyList"}>
+                    <Link to={"/ts/companyList"}>
                         <Button type={"primary"} > 返回列表</Button>
                     </Link>
 

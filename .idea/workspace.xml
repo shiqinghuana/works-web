@@ -16,7 +16,19 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e7ac32f-e41b-4d46-a8f0-3f471953d2be" name="Default Changelist" comment="1" />
+    <list default="true" id="3e7ac32f-e41b-4d46-a8f0-3f471953d2be" name="Default Changelist" comment="增加onPressEnter 事件回调">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/company.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/company.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/company/CompanyDescriptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/company/CompanyDescriptions.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/company/CompanyDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/company/CompanyDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/company/CompanyList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/company/CompanyList.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/treemap/RedBlackTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/treemap/RedBlackTree.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/treemap/TreeMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/treemap/TreeMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/BasicLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BasicLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/request.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -80,11 +92,34 @@
       <recent name="E:\WebstormProjects\works-web\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.build">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompanyList.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/component/company/CompanyList.js" working-dir="$PROJECT_DIR$/src/component/company">
       <method v="2" />
     </configuration>
     <configuration name="TreeMap.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/component/treemap/TreeMap.js" working-dir="$PROJECT_DIR$/src/utils">
+      <method v="2" />
+    </configuration>
+    <configuration name="build" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
+      <package-json value="$PROJECT_DIR$/package.json" />
+      <command value="run" />
+      <scripts>
+        <script value="build" />
+      </scripts>
+      <node-interpreter value="project" />
+      <envs />
       <method v="2" />
     </configuration>
     <configuration name="eject" type="js.build_tools.npm" temporary="true" nameIsGenerated="true">
@@ -112,14 +147,15 @@
       <item itemvalue="Node.js.TreeMap.js" />
       <item itemvalue="npm.eject" />
       <item itemvalue="npm.start" />
+      <item itemvalue="npm.build" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
         <item itemvalue="npm.eject" />
         <item itemvalue="Node.js.TreeMap.js" />
         <item itemvalue="Node.js.CompanyList.js" />
-        <item itemvalue="npm.start" />
       </list>
     </recent_temporary>
   </component>
@@ -142,6 +178,8 @@
       <workItem from="1621315520608" duration="18026000" />
       <workItem from="1621350250391" duration="1316000" />
       <workItem from="1621389685612" duration="17755000" />
+      <workItem from="1621476817708" duration="6746000" />
+      <workItem from="1621565675611" duration="1015000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1621415903992</created>
@@ -150,7 +188,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621415903992</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="增加onPressEnter 事件回调">
+      <created>1621423030628</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1621423030628</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -182,13 +227,14 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="1" />
-    <option name="LAST_COMMIT_MESSAGE" value="1" />
+    <MESSAGE value="增加onPressEnter 事件回调" />
+    <option name="LAST_COMMIT_MESSAGE" value="增加onPressEnter 事件回调" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="471" y="283" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621350107316">
+    <state x="471" y="283" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621573268410">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state x="471" y="283" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1621350107316" />
+    <state x="471" y="283" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1621573268410" />
     <state x="795" y="383" key="FileChooserDialogImpl" timestamp="1621350105728">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
@@ -201,22 +247,22 @@
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="830" y="419" key="Github.ShareDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1621415566479" />
-    <state width="1870" height="35" key="GridCell.Tab.0.bottom" timestamp="1621416549572">
+    <state width="1870" height="2" key="GridCell.Tab.0.bottom" timestamp="1621524521059">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="35" key="GridCell.Tab.0.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1621416549572" />
-    <state width="1870" height="35" key="GridCell.Tab.0.center" timestamp="1621416549572">
+    <state width="1870" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1621524521059" />
+    <state width="1870" height="2" key="GridCell.Tab.0.center" timestamp="1621524521059">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="35" key="GridCell.Tab.0.center/0.0.1920.1035@0.0.1920.1035" timestamp="1621416549572" />
-    <state width="1870" height="35" key="GridCell.Tab.0.left" timestamp="1621416549572">
+    <state width="1870" height="2" key="GridCell.Tab.0.center/0.0.1920.1035@0.0.1920.1035" timestamp="1621524521059" />
+    <state width="1870" height="2" key="GridCell.Tab.0.left" timestamp="1621524521059">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="35" key="GridCell.Tab.0.left/0.0.1920.1035@0.0.1920.1035" timestamp="1621416549572" />
-    <state width="1870" height="35" key="GridCell.Tab.0.right" timestamp="1621416549572">
+    <state width="1870" height="2" key="GridCell.Tab.0.left/0.0.1920.1035@0.0.1920.1035" timestamp="1621524521059" />
+    <state width="1870" height="2" key="GridCell.Tab.0.right" timestamp="1621524521059">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="35" key="GridCell.Tab.0.right/0.0.1920.1035@0.0.1920.1035" timestamp="1621416549572" />
+    <state width="1870" height="2" key="GridCell.Tab.0.right/0.0.1920.1035@0.0.1920.1035" timestamp="1621524521059" />
     <state width="1870" height="363" key="GridCell.Tab.1.bottom" timestamp="1621350691095">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
@@ -269,14 +315,18 @@
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="503" y="158" key="SettingsEditor/0.0.1920.1035@0.0.1920.1035" timestamp="1620835012694" />
-    <state x="549" y="255" key="Vcs.Push.Dialog.v2" timestamp="1621416604343">
+    <state x="549" y="255" key="Vcs.Push.Dialog.v2" timestamp="1621423044923">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state x="549" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1035@0.0.1920.1035" timestamp="1621416604343" />
+    <state x="549" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1035@0.0.1920.1035" timestamp="1621423044923" />
     <state x="462" y="113" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1621339352985">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="462" y="113" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1035@0.0.1920.1035" timestamp="1621339352985" />
+    <state x="628" y="203" width="598" height="520" key="find.popup" timestamp="1621524475280">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="628" y="203" width="598" height="520" key="find.popup/0.0.1920.1035@0.0.1920.1035" timestamp="1621524475280" />
     <state x="668" y="381" key="run.anything.popup" timestamp="1621343397643">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
@@ -291,7 +341,7 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/src/component/company/CompanyDetail.js</url>
-          <line>76</line>
+          <line>77</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">

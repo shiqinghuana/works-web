@@ -1,5 +1,5 @@
-import {get,post}  from "../utils/request";
-import {useEffect} from "react";
+import {post}  from "../utils/request";
+
 
 
 

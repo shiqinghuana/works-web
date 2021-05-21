@@ -10,7 +10,7 @@ import {Button} from "antd";
 import {companyChange} from "../../api/company";
 import {message} from "antd";
 import {companyQuery} from "../../api/company";
-import ProTable from "@ant-design/pro-table";
+
 
 
 /*
@@ -20,6 +20,7 @@ const config = {
 
     layout: "vertical ",
     scrollToFirstError: true,
+    // eslint-disable-next-line no-template-curly-in-string
     validateMessages: {required: "'${label}' 是必填字段"},
 
 
@@ -103,6 +104,7 @@ const companyBackInfos = {
 /*
 * 请求模型
 * */
+// eslint-disable-next-line no-unused-vars
 const companyVo = {
     type: number,
     companyid: number,
@@ -155,6 +157,8 @@ class CompanyDetail extends React.Component {
     }
 
 
+    s = "companyDescriptions";
+
     render() {
         return (
             <Form
@@ -173,7 +177,7 @@ class CompanyDetail extends React.Component {
                             (e) => {
                                 if (e.code === 0) {
                                     message.success("提交成功")
-                                    window.location.pathname = "/companyDescriptions/companyId=" + e.data
+                                    window.location.pathname = "/ts/" + this.s + "/companyId=" + e.data
 
                                 }
                             }

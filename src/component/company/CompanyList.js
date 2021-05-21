@@ -115,7 +115,7 @@ let CompanyList = class Company extends React.Component {
                 }
                 }
                 toolBarRender={() =>
-                    <Link to={"/companyDetail"}>
+                    <Link to={"/ts/companyDetail"}>
                         <Button type={"primary"} key={"new"}>
                             新建公司
                         </Button>
