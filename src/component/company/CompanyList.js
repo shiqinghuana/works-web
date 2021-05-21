@@ -45,7 +45,7 @@ const columns = [
         sorter: true,
         valueType: 'option',
         render: (_, b, ...item) => {
-            return (<Link to={"/companyDescriptions/companyId=" + b.id}> 查看</Link>)
+            return (<Link to={"/ts/companyDescriptions/companyId=" + b.id}> 查看</Link>)
         },
     },
 
