@@ -11,23 +11,116 @@
       <path>
         <item name="ROOT" type="e8cecc67:BranchNodeDescriptor" />
         <item name="LOCAL_ROOT" type="e8cecc67:BranchNodeDescriptor" />
-        <item name="BRANCH:fixBug20210519" type="e8cecc67:BranchNodeDescriptor" />
+        <item name="BRANCH:master" type="e8cecc67:BranchNodeDescriptor" />
       </path>
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e7ac32f-e41b-4d46-a8f0-3f471953d2be" name="Default Changelist" comment="增加onPressEnter 事件回调">
+    <list default="true" id="3e7ac32f-e41b-4d46-a8f0-3f471953d2be" name="Default Changelist" comment="fix bug">
+      <change afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/logo192.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/logo512.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/manifest.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/robots.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/2.54787924.chunk.css" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/css/2.54787924.chunk.css.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/2.63ae223a.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/2.63ae223a.chunk.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/2.63ae223a.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/3.aeea8437.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/3.aeea8437.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.b63875c5.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.b63875c5.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.e0462219.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.e0462219.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/BasicLayout.cdf018c1.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/GridContent.097b6e85.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/Header.77e34e28.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/ThemeColor.0d51358f.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.0023e213.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.0073fa4c.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.06976f3a.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.080bd0d7.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.0a838520.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.0bab9c5f.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.12dfc422.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.12e277fb.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.13ad51ac.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.1402b635.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.14f3efed.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.1b6f5c1a.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.1bbd301a.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.1c7ad1ad.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.1d31820a.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.1dd106b0.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.1e2ea6db.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.2e5a0a4e.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.2f113607.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.335c1803.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.3745ed15.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.3a8f6637.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.3bc07efa.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.3df290b5.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.417e6e35.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.4559f08d.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.4e3ca355.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.4ea79b6b.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.4fc6f883.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.5468db5c.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.54ef5eec.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.56586fe3.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.5842c5f7.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.58a4b429.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.58aa5ca1.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.5d069cb0.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.5fb6bf14.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.5fdc7632.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.65785c34.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.678db872.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.67d4ef1e.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.6901f0b2.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.6a743947.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.6f1c0cad.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.72b80aca.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.74208f17.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.77a48737.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.77c8fdc8.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.86d15e37.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.8ac03edd.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.8b256e5f.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.8c12967b.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.9156f10d.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.91ae05e4.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.97fe595c.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.9cc4ba37.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.a1287a35.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.a24960e6.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.a6502a1c.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.a945e045.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.b6af9140.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.c2cade60.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.cbbb0724.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.d3821b2c.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.d3efe400.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.d485e6ac.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.d67f1d52.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.d7cdd01f.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.db2c6726.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.df973dd0.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.e36f52c2.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.e45ce113.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.e7e426a2.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.e883be51.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.e90871b5.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.ea6d5fd1.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.f61c0fcb.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.f6c63dbf.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.f7536ba3.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.fa3eba84.less" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/index.fca2ad58.less" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/api/company.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/company.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/company/CompanyDescriptions.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/company/CompanyDescriptions.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/company/CompanyDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/company/CompanyDetail.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/company/CompanyList.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/company/CompanyList.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/treemap/RedBlackTree.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/treemap/RedBlackTree.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/component/treemap/TreeMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/treemap/TreeMap.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/BasicLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BasicLayout.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/request.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,6 +159,9 @@
       </MavenGeneralSettings>
     </option>
   </component>
+  <component name="PackageJsonUpdateNotifier">
+    <dismissed value="$PROJECT_DIR$/package.json" />
+  </component>
   <component name="ProjectId" id="1sI3tuoR5Wib0iUXSByual8qNgy" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
   <component name="ProjectViewState">
@@ -93,19 +189,6 @@
     </key>
   </component>
   <component name="RunManager" selected="npm.build">
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <configuration name="CompanyList.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/component/company/CompanyList.js" working-dir="$PROJECT_DIR$/src/component/company">
       <method v="2" />
     </configuration>
@@ -180,6 +263,7 @@
       <workItem from="1621389685612" duration="17755000" />
       <workItem from="1621476817708" duration="6746000" />
       <workItem from="1621565675611" duration="1015000" />
+      <workItem from="1621574252264" duration="827000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1621415903992</created>
@@ -212,7 +296,7 @@
                   <entry key="branch">
                     <value>
                       <list>
-                        <option value="fixBug20210519" />
+                        <option value="master" />
                       </list>
                     </value>
                   </entry>
@@ -315,10 +399,14 @@
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="503" y="158" key="SettingsEditor/0.0.1920.1035@0.0.1920.1035" timestamp="1620835012694" />
-    <state x="549" y="255" key="Vcs.Push.Dialog.v2" timestamp="1621423044923">
+    <state x="849" y="391" key="VCS.EditChangelistDialog" timestamp="1621574686436">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state x="549" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1035@0.0.1920.1035" timestamp="1621423044923" />
+    <state x="849" y="391" key="VCS.EditChangelistDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1621574686436" />
+    <state x="549" y="255" key="Vcs.Push.Dialog.v2" timestamp="1621574263296">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="549" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1035@0.0.1920.1035" timestamp="1621574263296" />
     <state x="462" y="113" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1621339352985">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
