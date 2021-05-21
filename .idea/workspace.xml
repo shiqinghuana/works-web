@@ -16,23 +16,31 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e7ac32f-e41b-4d46-a8f0-3f471953d2be" name="Default Changelist" comment="fix bug">
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.d1586e91.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.d1586e91.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/component/Wellcom.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/icon/Icon.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/1621575534283490.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/2d33195cb865e7759fd71fe081c297f3.jpeg" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/static/images/favicon.ico" afterDir="false" />
+    <list default="true" id="3e7ac32f-e41b-4d46-a8f0-3f471953d2be" name="Default Changelist" comment="调整页面模板">
+      <change afterPath="$PROJECT_DIR$/build/static/js/2.c63e524f.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/2.c63e524f.chunk.js.LICENSE.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/2.c63e524f.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/3.7ac7dd85.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/3.7ac7dd85.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.eaaba3fb.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.eaaba3fb.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.4d4e7a5e.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.4d4e7a5e.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/1621575534283490.743ec3ab.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/media/2d33195cb865e7759fd71fe081c297f3.fd73e8ea.jpeg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/build/favicon.ico" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.b63875c5.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.b63875c5.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/config/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/router.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/layout/BasicLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BasicLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.63ae223a.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.63ae223a.chunk.js.LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/2.63ae223a.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/3.aeea8437.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/3.aeea8437.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.d1586e91.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.d1586e91.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.e0462219.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.e0462219.js.map" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -108,7 +116,7 @@
       <recent name="E:\WebstormProjects\works-web\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.start">
+  <component name="RunManager" selected="npm.build">
     <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
       <option name="arquillianRunConfiguration">
         <value>
@@ -165,8 +173,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.start" />
         <item itemvalue="npm.build" />
+        <item itemvalue="npm.start" />
         <item itemvalue="npm.eject" />
         <item itemvalue="Node.js.TreeMap.js" />
         <item itemvalue="Node.js.CompanyList.js" />
@@ -194,7 +202,7 @@
       <workItem from="1621389685612" duration="17755000" />
       <workItem from="1621476817708" duration="6746000" />
       <workItem from="1621565675611" duration="1015000" />
-      <workItem from="1621574252264" duration="7703000" />
+      <workItem from="1621574252264" duration="8091000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1621415903992</created>
@@ -224,7 +232,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621575619692</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="调整页面模板">
+      <created>1621583391961</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1621583391961</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -260,7 +275,8 @@
     <MESSAGE value="增加onPressEnter 事件回调" />
     <MESSAGE value="build" />
     <MESSAGE value="fix bug" />
-    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
+    <MESSAGE value="调整页面模板" />
+    <option name="LAST_COMMIT_MESSAGE" value="调整页面模板" />
   </component>
   <component name="WindowStateProjectService">
     <state x="471" y="283" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621573268410">
@@ -279,22 +295,22 @@
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="830" y="419" key="Github.ShareDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1621415566479" />
-    <state width="1870" height="145" key="GridCell.Tab.0.bottom" timestamp="1621576418037">
+    <state width="1870" height="2" key="GridCell.Tab.0.bottom" timestamp="1621583400027">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1621576418037" />
-    <state width="1870" height="145" key="GridCell.Tab.0.center" timestamp="1621576418036">
+    <state width="1870" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1621583400027" />
+    <state width="1870" height="2" key="GridCell.Tab.0.center" timestamp="1621583400026">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="145" key="GridCell.Tab.0.center/0.0.1920.1035@0.0.1920.1035" timestamp="1621576418036" />
-    <state width="1870" height="145" key="GridCell.Tab.0.left" timestamp="1621576418036">
+    <state width="1870" height="2" key="GridCell.Tab.0.center/0.0.1920.1035@0.0.1920.1035" timestamp="1621583400026" />
+    <state width="1870" height="2" key="GridCell.Tab.0.left" timestamp="1621583400026">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="145" key="GridCell.Tab.0.left/0.0.1920.1035@0.0.1920.1035" timestamp="1621576418036" />
-    <state width="1870" height="145" key="GridCell.Tab.0.right" timestamp="1621576418037">
+    <state width="1870" height="2" key="GridCell.Tab.0.left/0.0.1920.1035@0.0.1920.1035" timestamp="1621583400026" />
+    <state width="1870" height="2" key="GridCell.Tab.0.right" timestamp="1621583400026">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="145" key="GridCell.Tab.0.right/0.0.1920.1035@0.0.1920.1035" timestamp="1621576418037" />
+    <state width="1870" height="2" key="GridCell.Tab.0.right/0.0.1920.1035@0.0.1920.1035" timestamp="1621583400026" />
     <state width="1870" height="363" key="GridCell.Tab.1.bottom" timestamp="1621350691095">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
