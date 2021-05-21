@@ -5,17 +5,38 @@ import BasicLayout from "../layout/BasicLayout";
 import {FormOutlined, SendOutlined, SolutionOutlined, RadarChartOutlined} from "@ant-design/icons"
 import React from "react";
 import RedBlackTree from "../component/treemap/RedBlackTree";
+import Welcome from "../component/Wellcom";
+import {Redirect} from "react-router-dom";
+import FunctionComponent from "../static/icon/Icon";
+import {ShareAltOutlined} from "@ant-design/icons";
+import {LinkOutlined} from "@ant-design/icons";
+import {RedditOutlined} from "@ant-design/icons";
 
 
 
 // eslint-disable-next-line import/no-anonymous-default-export
 export default [
+    {
+        path: "/",
+        name:"欢迎",
+        exact:true,
+        render:() => (
+            <Redirect to={"/ts/welcome"}/>
+        ),
+    },
 
     {
         path: "/ts",
         component:BasicLayout,
         name:"三分钟快速搭建CURD",
+        icon: <LinkOutlined />,
         routes: [
+            {
+                path: '/ts/welcome',
+                component: Welcome,
+
+            },
+
             {
                 path: '/ts/companyList',
                 name: "列表页",
@@ -46,6 +67,7 @@ export default [
         path:"/gs",
         component:BasicLayout,
         name:"算法可视化",
+        icon: <ShareAltOutlined />,
         routes: [
             {
                 path:"/gs/redBlackTree",
@@ -55,11 +77,6 @@ export default [
             }
         ]
     },
-    {
-        path: "/",
-        redirect:"/gs/redBlackTree",
-        component:BasicLayout,
 
-    },
 
 ]

@@ -16,7 +16,24 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e7ac32f-e41b-4d46-a8f0-3f471953d2be" name="Default Changelist" comment="build" />
+    <list default="true" id="3e7ac32f-e41b-4d46-a8f0-3f471953d2be" name="Default Changelist" comment="fix bug">
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.d1586e91.chunk.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/build/static/js/main.d1586e91.chunk.js.map" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/component/Wellcom.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/icon/Icon.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/1621575534283490.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/2d33195cb865e7759fd71fe081c297f3.jpeg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/static/images/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.b63875c5.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/build/static/js/main.b63875c5.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/public/favicon.ico" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/config/router.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/config/router.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/BasicLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BasicLayout.js" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -58,18 +75,21 @@
     <dismissed value="$PROJECT_DIR$/package.json" />
   </component>
   <component name="ProjectId" id="1sI3tuoR5Wib0iUXSByual8qNgy" />
-  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true">
+    <ConfirmationsSetting value="2" id="Add" />
+  </component>
   <component name="ProjectViewState">
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
     <option name="showMembers" value="true" />
   </component>
   <component name="PropertiesComponent">
+    <property name="ASKED_ADD_EXTERNAL_FILES" value="true" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="js.last.introduce.type" value="CONST" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/component/treemap/TreeMap.js" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/src/static/images" />
     <property name="node.js.detected.package.eslint" value="true" />
     <property name="node.js.path.for.package.eslint" value="project" />
     <property name="node.js.selected.package.eslint" value="(autodetect)" />
@@ -78,12 +98,28 @@
     <property name="ts.external.directory.path" value="E:\IntelliJ IDEA 2020.2.3\plugins\JavaScriptLanguage\jsLanguageServicesImpl\external" />
   </component>
   <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="E:\WebstormProjects\works-web\src\static\images" />
+    </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebstormProjects\works-web\src\static\images" />
+      <recent name="E:\WebstormProjects\works-web\public" />
       <recent name="E:\WebstormProjects\works-web\src\utils" />
       <recent name="E:\WebstormProjects\works-web\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
+  <component name="RunManager" selected="npm.start">
+    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="CompanyList.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/component/company/CompanyList.js" working-dir="$PROJECT_DIR$/src/component/company">
       <method v="2" />
     </configuration>
@@ -129,8 +165,8 @@
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
         <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
         <item itemvalue="npm.eject" />
         <item itemvalue="Node.js.TreeMap.js" />
         <item itemvalue="Node.js.CompanyList.js" />
@@ -158,7 +194,7 @@
       <workItem from="1621389685612" duration="17755000" />
       <workItem from="1621476817708" duration="6746000" />
       <workItem from="1621565675611" duration="1015000" />
-      <workItem from="1621574252264" duration="1210000" />
+      <workItem from="1621574252264" duration="7703000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1621415903992</created>
@@ -181,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621575242901</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="fix bug">
+      <created>1621575619692</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1621575619692</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -212,10 +255,12 @@
     <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
+    <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="1" />
     <MESSAGE value="增加onPressEnter 事件回调" />
     <MESSAGE value="build" />
-    <option name="LAST_COMMIT_MESSAGE" value="build" />
+    <MESSAGE value="fix bug" />
+    <option name="LAST_COMMIT_MESSAGE" value="fix bug" />
   </component>
   <component name="WindowStateProjectService">
     <state x="471" y="283" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621573268410">
@@ -234,22 +279,22 @@
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="830" y="419" key="Github.ShareDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1621415566479" />
-    <state width="1870" height="2" key="GridCell.Tab.0.bottom" timestamp="1621524521059">
+    <state width="1870" height="145" key="GridCell.Tab.0.bottom" timestamp="1621576418037">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1621524521059" />
-    <state width="1870" height="2" key="GridCell.Tab.0.center" timestamp="1621524521059">
+    <state width="1870" height="145" key="GridCell.Tab.0.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1621576418037" />
+    <state width="1870" height="145" key="GridCell.Tab.0.center" timestamp="1621576418036">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="2" key="GridCell.Tab.0.center/0.0.1920.1035@0.0.1920.1035" timestamp="1621524521059" />
-    <state width="1870" height="2" key="GridCell.Tab.0.left" timestamp="1621524521059">
+    <state width="1870" height="145" key="GridCell.Tab.0.center/0.0.1920.1035@0.0.1920.1035" timestamp="1621576418036" />
+    <state width="1870" height="145" key="GridCell.Tab.0.left" timestamp="1621576418036">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="2" key="GridCell.Tab.0.left/0.0.1920.1035@0.0.1920.1035" timestamp="1621524521059" />
-    <state width="1870" height="2" key="GridCell.Tab.0.right" timestamp="1621524521059">
+    <state width="1870" height="145" key="GridCell.Tab.0.left/0.0.1920.1035@0.0.1920.1035" timestamp="1621576418036" />
+    <state width="1870" height="145" key="GridCell.Tab.0.right" timestamp="1621576418037">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="2" key="GridCell.Tab.0.right/0.0.1920.1035@0.0.1920.1035" timestamp="1621524521059" />
+    <state width="1870" height="145" key="GridCell.Tab.0.right/0.0.1920.1035@0.0.1920.1035" timestamp="1621576418037" />
     <state width="1870" height="363" key="GridCell.Tab.1.bottom" timestamp="1621350691095">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
@@ -310,10 +355,10 @@
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="549" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1035@0.0.1920.1035" timestamp="1621575250503" />
-    <state x="462" y="113" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1621339352985">
+    <state x="462" y="113" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1621582857131">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state x="462" y="113" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1035@0.0.1920.1035" timestamp="1621339352985" />
+    <state x="462" y="113" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1035@0.0.1920.1035" timestamp="1621582857131" />
     <state x="628" y="203" width="598" height="520" key="find.popup" timestamp="1621524475280">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
