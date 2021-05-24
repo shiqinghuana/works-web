@@ -115,7 +115,14 @@ module.exports = function (proxy, allowedHost) {
         pathRewrite: {
           "": ""
         }
-      }
+      },
+      '/fileSupport': {
+        target: "http://localhost",
+        changeOrigin: true,
+        pathRewrite: {
+          "": ""
+        },
+      },
     },
     before(app, server) {
       // Keep `evalSourceMapMiddleware` and `errorOverlayMiddleware`

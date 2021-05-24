@@ -16,31 +16,16 @@
     </select>
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3e7ac32f-e41b-4d46-a8f0-3f471953d2be" name="Default Changelist" comment="调整页面模板">
-      <change afterPath="$PROJECT_DIR$/build/static/js/2.c63e524f.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/2.c63e524f.chunk.js.LICENSE.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/2.c63e524f.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/3.7ac7dd85.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/3.7ac7dd85.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.eaaba3fb.chunk.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/main.eaaba3fb.chunk.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.4d4e7a5e.js" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/js/runtime-main.4d4e7a5e.js.map" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/1621575534283490.743ec3ab.png" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/build/static/media/2d33195cb865e7759fd71fe081c297f3.fd73e8ea.jpeg" afterDir="false" />
+    <list default="true" id="3e7ac32f-e41b-4d46-a8f0-3f471953d2be" name="Default Changelist" comment="打包文件">
+      <change afterPath="$PROJECT_DIR$/src/component/hashmap/HashMap.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/build/asset-manifest.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/favicon.ico" beforeDir="false" afterPath="$PROJECT_DIR$/build/favicon.ico" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/build/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.63ae223a.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.63ae223a.chunk.js.LICENSE.txt" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/2.63ae223a.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/3.aeea8437.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/3.aeea8437.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.d1586e91.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/main.d1586e91.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.e0462219.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/build/static/js/runtime-main.e0462219.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/config/webpackDevServer.config.js" beforeDir="false" afterPath="$PROJECT_DIR$/config/webpackDevServer.config.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/public/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/public/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/api/company.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/api/company.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/company/CompanyDetail.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/company/CompanyDetail.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/component/treemap/TreeMap.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/component/treemap/TreeMap.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/layout/BasicLayout.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/layout/BasicLayout.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/utils/request.js" beforeDir="false" afterPath="$PROJECT_DIR$/src/utils/request.js" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -110,25 +95,15 @@
       <recent name="E:\WebstormProjects\works-web\src\static\images" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
+      <recent name="E:\WebstormProjects\works-web\src\component\treemap" />
+      <recent name="E:\WebstormProjects\works-web\src\component\hashmap" />
       <recent name="E:\WebstormProjects\works-web\src\static\images" />
       <recent name="E:\WebstormProjects\works-web\public" />
       <recent name="E:\WebstormProjects\works-web\src\utils" />
-      <recent name="E:\WebstormProjects\works-web\src" />
     </key>
   </component>
-  <component name="RunManager" selected="npm.build">
-    <configuration default="true" type="ArquillianJUnit" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="CompanyList.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/component/company/CompanyList.js" working-dir="$PROJECT_DIR$/src/component/company">
+  <component name="RunManager" selected="Node.js.TreeMap.js">
+    <configuration name="HashMap.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/component/hashmap/HashMap.js" working-dir="$PROJECT_DIR$/src/component/hashmap">
       <method v="2" />
     </configuration>
     <configuration name="TreeMap.js" type="NodeJSConfigurationType" temporary="true" nameIsGenerated="true" path-to-js-file="$PROJECT_DIR$/src/component/treemap/TreeMap.js" working-dir="$PROJECT_DIR$/src/utils">
@@ -165,19 +140,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Node.js.CompanyList.js" />
       <item itemvalue="Node.js.TreeMap.js" />
+      <item itemvalue="Node.js.HashMap.js" />
       <item itemvalue="npm.eject" />
       <item itemvalue="npm.start" />
       <item itemvalue="npm.build" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="npm.build" />
-        <item itemvalue="npm.start" />
-        <item itemvalue="npm.eject" />
         <item itemvalue="Node.js.TreeMap.js" />
-        <item itemvalue="Node.js.CompanyList.js" />
+        <item itemvalue="Node.js.HashMap.js" />
+        <item itemvalue="npm.start" />
+        <item itemvalue="npm.build" />
+        <item itemvalue="npm.eject" />
       </list>
     </recent_temporary>
   </component>
@@ -202,7 +177,10 @@
       <workItem from="1621389685612" duration="17755000" />
       <workItem from="1621476817708" duration="6746000" />
       <workItem from="1621565675611" duration="1015000" />
-      <workItem from="1621574252264" duration="8091000" />
+      <workItem from="1621574252264" duration="9954000" />
+      <workItem from="1621659825021" duration="6583000" />
+      <workItem from="1621727772036" duration="28513000" />
+      <workItem from="1621824403698" duration="5970000" />
     </task>
     <task id="LOCAL-00001" summary="1">
       <created>1621415903992</created>
@@ -239,7 +217,14 @@
       <option name="project" value="LOCAL" />
       <updated>1621583391961</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="打包文件">
+      <created>1621583567291</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1621583567291</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -276,13 +261,18 @@
     <MESSAGE value="build" />
     <MESSAGE value="fix bug" />
     <MESSAGE value="调整页面模板" />
-    <option name="LAST_COMMIT_MESSAGE" value="调整页面模板" />
+    <MESSAGE value="打包文件" />
+    <option name="LAST_COMMIT_MESSAGE" value="打包文件" />
   </component>
   <component name="WindowStateProjectService">
-    <state x="471" y="283" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621573268410">
+    <state x="471" y="283" width="1081" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog" timestamp="1621828975263">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state x="471" y="283" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1621573268410" />
+    <state x="471" y="283" width="1081" height="705" key="#com.intellij.execution.impl.EditConfigurationsDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1621828975263" />
+    <state width="466" height="466" key="DebuggerActiveHint" timestamp="1621782775821">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state width="466" height="466" key="DebuggerActiveHint/0.0.1920.1035@0.0.1920.1035" timestamp="1621782775821" />
     <state x="795" y="383" key="FileChooserDialogImpl" timestamp="1621350105728">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
@@ -295,86 +285,90 @@
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="830" y="419" key="Github.ShareDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1621415566479" />
-    <state width="1870" height="2" key="GridCell.Tab.0.bottom" timestamp="1621583400027">
+    <state width="1878" height="362" key="GridCell.Tab.0.bottom" timestamp="1621829497913">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="2" key="GridCell.Tab.0.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1621583400027" />
-    <state width="1870" height="2" key="GridCell.Tab.0.center" timestamp="1621583400026">
+    <state width="1878" height="362" key="GridCell.Tab.0.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1621829497913" />
+    <state width="1878" height="362" key="GridCell.Tab.0.center" timestamp="1621829497913">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="2" key="GridCell.Tab.0.center/0.0.1920.1035@0.0.1920.1035" timestamp="1621583400026" />
-    <state width="1870" height="2" key="GridCell.Tab.0.left" timestamp="1621583400026">
+    <state width="1878" height="362" key="GridCell.Tab.0.center/0.0.1920.1035@0.0.1920.1035" timestamp="1621829497913" />
+    <state width="1878" height="362" key="GridCell.Tab.0.left" timestamp="1621829497913">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="2" key="GridCell.Tab.0.left/0.0.1920.1035@0.0.1920.1035" timestamp="1621583400026" />
-    <state width="1870" height="2" key="GridCell.Tab.0.right" timestamp="1621583400026">
+    <state width="1878" height="362" key="GridCell.Tab.0.left/0.0.1920.1035@0.0.1920.1035" timestamp="1621829497913" />
+    <state width="1878" height="362" key="GridCell.Tab.0.right" timestamp="1621829497913">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="2" key="GridCell.Tab.0.right/0.0.1920.1035@0.0.1920.1035" timestamp="1621583400026" />
-    <state width="1870" height="363" key="GridCell.Tab.1.bottom" timestamp="1621350691095">
+    <state width="1878" height="362" key="GridCell.Tab.0.right/0.0.1920.1035@0.0.1920.1035" timestamp="1621829497913" />
+    <state width="1878" height="328" key="GridCell.Tab.1.bottom" timestamp="1621784059750">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="363" key="GridCell.Tab.1.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1621350691095" />
-    <state width="1870" height="363" key="GridCell.Tab.1.center" timestamp="1621350691095">
+    <state width="1878" height="328" key="GridCell.Tab.1.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1621784059750" />
+    <state width="1878" height="328" key="GridCell.Tab.1.center" timestamp="1621784059750">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="363" key="GridCell.Tab.1.center/0.0.1920.1035@0.0.1920.1035" timestamp="1621350691095" />
-    <state width="1870" height="363" key="GridCell.Tab.1.left" timestamp="1621350691095">
+    <state width="1878" height="328" key="GridCell.Tab.1.center/0.0.1920.1035@0.0.1920.1035" timestamp="1621784059750" />
+    <state width="1878" height="328" key="GridCell.Tab.1.left" timestamp="1621784059749">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="363" key="GridCell.Tab.1.left/0.0.1920.1035@0.0.1920.1035" timestamp="1621350691095" />
-    <state width="1870" height="363" key="GridCell.Tab.1.right" timestamp="1621350691095">
+    <state width="1878" height="328" key="GridCell.Tab.1.left/0.0.1920.1035@0.0.1920.1035" timestamp="1621784059749" />
+    <state width="1878" height="328" key="GridCell.Tab.1.right" timestamp="1621784059750">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="363" key="GridCell.Tab.1.right/0.0.1920.1035@0.0.1920.1035" timestamp="1621350691095" />
-    <state width="1870" height="163" key="GridCell.Tab.2.bottom" timestamp="1621350683746">
+    <state width="1878" height="328" key="GridCell.Tab.1.right/0.0.1920.1035@0.0.1920.1035" timestamp="1621784059750" />
+    <state width="1878" height="328" key="GridCell.Tab.2.bottom" timestamp="1621784059751">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="163" key="GridCell.Tab.2.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1621350683746" />
-    <state width="1870" height="163" key="GridCell.Tab.2.center" timestamp="1621350683746">
+    <state width="1878" height="328" key="GridCell.Tab.2.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1621784059751" />
+    <state width="1878" height="328" key="GridCell.Tab.2.center" timestamp="1621784059750">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="163" key="GridCell.Tab.2.center/0.0.1920.1035@0.0.1920.1035" timestamp="1621350683746" />
-    <state width="1870" height="163" key="GridCell.Tab.2.left" timestamp="1621350683746">
+    <state width="1878" height="328" key="GridCell.Tab.2.center/0.0.1920.1035@0.0.1920.1035" timestamp="1621784059750" />
+    <state width="1878" height="328" key="GridCell.Tab.2.left" timestamp="1621784059750">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="163" key="GridCell.Tab.2.left/0.0.1920.1035@0.0.1920.1035" timestamp="1621350683746" />
-    <state width="1870" height="163" key="GridCell.Tab.2.right" timestamp="1621350683746">
+    <state width="1878" height="328" key="GridCell.Tab.2.left/0.0.1920.1035@0.0.1920.1035" timestamp="1621784059750" />
+    <state width="1878" height="328" key="GridCell.Tab.2.right" timestamp="1621784059750">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="163" key="GridCell.Tab.2.right/0.0.1920.1035@0.0.1920.1035" timestamp="1621350683746" />
-    <state width="1870" height="163" key="GridCell.Tab.3.bottom" timestamp="1621350683746">
+    <state width="1878" height="328" key="GridCell.Tab.2.right/0.0.1920.1035@0.0.1920.1035" timestamp="1621784059750" />
+    <state width="1878" height="328" key="GridCell.Tab.3.bottom" timestamp="1621784059751">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="163" key="GridCell.Tab.3.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1621350683746" />
-    <state width="1870" height="163" key="GridCell.Tab.3.center" timestamp="1621350683746">
+    <state width="1878" height="328" key="GridCell.Tab.3.bottom/0.0.1920.1035@0.0.1920.1035" timestamp="1621784059751" />
+    <state width="1878" height="328" key="GridCell.Tab.3.center" timestamp="1621784059751">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="163" key="GridCell.Tab.3.center/0.0.1920.1035@0.0.1920.1035" timestamp="1621350683746" />
-    <state width="1870" height="163" key="GridCell.Tab.3.left" timestamp="1621350683746">
+    <state width="1878" height="328" key="GridCell.Tab.3.center/0.0.1920.1035@0.0.1920.1035" timestamp="1621784059751" />
+    <state width="1878" height="328" key="GridCell.Tab.3.left" timestamp="1621784059751">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="163" key="GridCell.Tab.3.left/0.0.1920.1035@0.0.1920.1035" timestamp="1621350683746" />
-    <state width="1870" height="163" key="GridCell.Tab.3.right" timestamp="1621350683746">
+    <state width="1878" height="328" key="GridCell.Tab.3.left/0.0.1920.1035@0.0.1920.1035" timestamp="1621784059751" />
+    <state width="1878" height="328" key="GridCell.Tab.3.right" timestamp="1621784059751">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state width="1870" height="163" key="GridCell.Tab.3.right/0.0.1920.1035@0.0.1920.1035" timestamp="1621350683746" />
-    <state x="503" y="158" key="SettingsEditor" timestamp="1620835012694">
+    <state width="1878" height="328" key="GridCell.Tab.3.right/0.0.1920.1035@0.0.1920.1035" timestamp="1621784059751" />
+    <state x="503" y="158" key="SettingsEditor" timestamp="1621783920441">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state x="503" y="158" key="SettingsEditor/0.0.1920.1035@0.0.1920.1035" timestamp="1620835012694" />
+    <state x="503" y="158" key="SettingsEditor/0.0.1920.1035@0.0.1920.1035" timestamp="1621783920441" />
     <state x="849" y="391" key="VCS.EditChangelistDialog" timestamp="1621574686436">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
     <state x="849" y="391" key="VCS.EditChangelistDialog/0.0.1920.1035@0.0.1920.1035" timestamp="1621574686436" />
-    <state x="549" y="255" key="Vcs.Push.Dialog.v2" timestamp="1621575250503">
+    <state x="549" y="255" key="Vcs.Push.Dialog.v2" timestamp="1621583903475">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state x="549" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1035@0.0.1920.1035" timestamp="1621575250503" />
-    <state x="462" y="113" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1621582857131">
+    <state x="549" y="255" key="Vcs.Push.Dialog.v2/0.0.1920.1035@0.0.1920.1035" timestamp="1621583903475" />
+    <state x="462" y="113" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser" timestamp="1621693511553">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
-    <state x="462" y="113" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1035@0.0.1920.1035" timestamp="1621582857131" />
+    <state x="462" y="113" key="com.intellij.openapi.editor.actions.MultiplePasteAction$ClipboardContentChooser/0.0.1920.1035@0.0.1920.1035" timestamp="1621693511553" />
+    <state x="506" y="251" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2" timestamp="1621783307643">
+      <screen x="0" y="0" width="1920" height="1035" />
+    </state>
+    <state x="506" y="251" key="com.intellij.xdebugger.impl.breakpoints.ui.BreakpointsDialogFactory$2/0.0.1920.1035@0.0.1920.1035" timestamp="1621783307643" />
     <state x="628" y="203" width="598" height="520" key="find.popup" timestamp="1621524475280">
       <screen x="0" y="0" width="1920" height="1035" />
     </state>
@@ -391,20 +385,55 @@
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
-        <line-breakpoint enabled="true" type="javascript">
+        <line-breakpoint type="javascript">
           <url>file://$PROJECT_DIR$/src/component/company/CompanyDetail.js</url>
-          <line>77</line>
+          <line>83</line>
           <option name="timeStamp" value="2" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
+        <line-breakpoint type="javascript">
           <url>file://$PROJECT_DIR$/src/component/treemap/TreeMap.js</url>
-          <line>256</line>
+          <line>254</line>
           <option name="timeStamp" value="3" />
         </line-breakpoint>
-        <line-breakpoint enabled="true" type="javascript">
+        <line-breakpoint type="javascript">
           <url>file://$PROJECT_DIR$/src/component/treemap/TreeMap.js</url>
-          <line>247</line>
+          <line>245</line>
           <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/component/hashmap/HashMap.js</url>
+          <line>243</line>
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/component/hashmap/HashMap.js</url>
+          <line>327</line>
+          <option name="timeStamp" value="7" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/component/hashmap/HashMap.js</url>
+          <line>248</line>
+          <option name="timeStamp" value="8" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/component/hashmap/HashMap.js</url>
+          <line>253</line>
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/component/hashmap/HashMap.js</url>
+          <line>255</line>
+          <option name="timeStamp" value="10" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/component/hashmap/HashMap.js</url>
+          <line>258</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint type="javascript">
+          <url>file://$PROJECT_DIR$/src/component/hashmap/HashMap.js</url>
+          <line>261</line>
+          <option name="timeStamp" value="12" />
         </line-breakpoint>
       </breakpoints>
     </breakpoint-manager>

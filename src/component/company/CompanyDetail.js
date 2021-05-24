@@ -10,8 +10,15 @@ import {Button} from "antd";
 import {companyChange} from "../../api/company";
 import {message} from "antd";
 import {companyQuery} from "../../api/company";
-
-
+import {Space} from "antd";
+import {Row} from "antd";
+import {Col} from "antd";
+import {Upload} from "antd";
+import {uploadFile} from "../../api/company";
+import {upload} from "../../utils/request";
+import {deleteFile} from "../../api/company";
+import {Tooltip} from "antd";
+import {HashMap} from "../hashmap/HashMap";
 
 /*
 * proform 配置信息
@@ -22,7 +29,6 @@ const config = {
     scrollToFirstError: true,
     // eslint-disable-next-line no-template-curly-in-string
     validateMessages: {required: "'${label}' 是必填字段"},
-
 
 
 }
@@ -121,14 +127,19 @@ class CompanyDetail extends React.Component {
             res: {},
             loading: false,
             datasource: [],
-            type:0 // 新建 1 更新
+            type: 0, // 新建 1 更新
+            fileList:[],
+            upLoadDisable:false
         }
+        this.hash = new HashMap();
         console.log(props)
         this.form = React.createRef()
         this.table = React.createRef()
     }
+
     componentDidMount() {
         const a = this.props.match.params.companyId
+        console.log(a)
         if (a) {
             this.setState({loading: true})
             companyQuery({id: a.split("=")[1]}).then(
@@ -146,7 +157,7 @@ class CompanyDetail extends React.Component {
                                 editKey.push(i)
                             }
                             this.setState({editKey})  // 此处需要维护一个数组，内容为表格编辑的rowkey，因为后端不直接提供rowkey，需要自己处理
-                            this.setState({type:1})
+                            this.setState({type: 1})
                             this.form.current.setFieldsValue(this.state.res)  //一定要在这里设置。不能通过initvalue
                             // 因为 initvalue只有在第一次加载生效，而setstate是异步的，拿不到数据，这里设置了，是全局的
                         })
@@ -156,8 +167,6 @@ class CompanyDetail extends React.Component {
         }
     }
 
-
-    s = "companyDescriptions";
 
     render() {
         return (
@@ -173,12 +182,15 @@ class CompanyDetail extends React.Component {
                             message.warning("至少提交一条银行卡数据")
                             return
                         }
+
+                        values.company.fileList = JSON.stringify(this.state.fileList)
                         companyChange(values).then(
                             (e) => {
                                 if (e.code === 0) {
                                     message.success("提交成功")
-                                    window.location.pathname = "/ts/" + this.s + "/companyId=" + e.data
-
+                                    window.location.pathname = "/ts/companyDescriptions/companyId=" + e.data
+                                }else {
+                                    message.error(e.msg)
                                 }
                             }
                         )
@@ -190,55 +202,100 @@ class CompanyDetail extends React.Component {
             >
                 <ProFormText name={["company", "id"]} hidden
                 />
-                <ProForm.Group>
+                <Row>
+                    <Col span={18}>
+                      <div style={{borderRight:"solid 1px"}}>
+                          <ProForm.Group>
 
-                    <ProFormText name={["company", "companyName"]} label={"公司名称"} width={"sm"}
-                                 rules={[{required: true}]}/>
+                              <ProFormText name={["company", "companyName"]} label={"公司名称"} width={"sm"}
+                                           rules={[{required: true}]}/>
 
-                    <ProFormText name={["company", "companyAddr"]}
-                                 label={"公司地址"}
-                                 width={"xl"}
-                                 rules={[{required: true}]}
+                              <ProFormText name={["company", "companyAddr"]}
+                                           label={"公司地址"}
+                                           width={"xl"}
+                                           rules={[{required: true}]}
 
-                    />
+                              />
 
-                </ProForm.Group>
+                          </ProForm.Group>
 
-                <ProForm.Group>
-                    <ProFormText name={["company", "companyPhone"]} label={"公司电话"} width={"xl"}
-                                 rules={[{required: true}]}/>
-                    <ProFormSelect name={["company", "type"]}
-                                   label={"公司类型"}
-                                   width={"xl"}
-                                   rules={[{required: true}]}
-                                   options={[{
-                                       value: "0",
-                                       label: "内部"
-                                   },
-                                       {
-                                           value: "1",
-                                           label: "外部"
-                                       }]}
-                    />
-                </ProForm.Group>
+                          <ProForm.Group>
+                              <ProFormText name={["company", "companyPhone"]} label={"公司电话"} width={"xl"}
+                                           rules={[{required: true}]}/>
+                              <ProFormSelect name={["company", "type"]}
+                                             label={"公司类型"}
+                                             width={"xl"}
+                                             rules={[{required: true}]}
+                                             options={[{
+                                                 value: "0",
+                                                 label: "内部"
+                                             },
+                                                 {
+                                                     value: "1",
+                                                     label: "外部"
+                                                 }]}
+                              />
+                          </ProForm.Group>
 
-                <Form.Item label={"备注"} name={["company", "mark"]} wrapperCol={{span: 11, offset: 0}}>
-                    {/* wrapperCol  设置布局 span 列框 offset 起始列*/}
-                    <Input.TextArea
+                          <Form.Item label={"备注"} name={["company", "mark"]} wrapperCol={{span: 22, offset: 0}}>
+                              {/* wrapperCol  设置布局 span 列框 offset 起始列*/}
+                              <Input.TextArea
+                                  allowClear
+                                  autoSize={{minRows: 5, maxRows: 10}}
+                                  showCount={true}
+                                  maxLength={1000}
+                                  placeholder="请输入备注，最大长度1000字"
+                              />
+                          </Form.Item>
 
-                        allowClear
-                        autoSize={{minRows: 5, maxRows: 10}}
-                        showCount={true}
-                        maxLength={1000}
-                        placeholder="请输入备注，最大长度1000字"
+                      </div>
 
-                    />
-                </Form.Item>
+                    </Col>
+
+                    <Col >
+                        <Upload
+                            beforeUpload={() =>false}
+                            disabled ={this.state.upLoadDisable}
+                            onChange={(e) => {
+                                if (this.state.fileList.filter((it)=>it.name ===e.file.name).length>0){
+                                    message.warn(e.file.name+"已存在,不要重复上传")
+                                    return
+                                }
+                                uploadFile(e.file).then((rsp)=>{
+                                    if (rsp.code ===0){
+                                        this.setState((state)=>{
+                                                state.fileList.push({"name":e.file.name,"url": rsp.data})
+                                                return state;
+                                            }
+                                        )
+                                    }else {
+                                        debugger;
+                                        message.error(rsp.msg)
+                                    }
+                                })
+                            }}
+
+                            fileList={ this.state.fileList}
+
+                            // action={"/fileSupport/upload"}
+                            onRemove={(e) =>{
+                                deleteFile(e.originFileObj).then()
+                            }}
+                            multiple
+                            // accept={".doc,.docx,.csv,.xsl,.xslx,.ptf,.jpg,.jpeg,.png"}
+                        >
+                          <Tooltip title={"此处只做展示用，后端不保存"}>
+                              <Button > 上传</Button>
+                          </Tooltip>
+                        </Upload>
+
+                    </Col>
+
+                </Row>
 
                 <ProForm.Item label={"银行信息"}
                               name={"companyBackInfos"}
                               trigger="onValuesChange"
-
                 >
                     {/* trigger == 	设置收集字段值变更的时*/}
                     <EditableProTable
@@ -255,10 +312,8 @@ class CompanyDetail extends React.Component {
                             record: () => ({  // 生成行的下标，如果不设置，自动拿index，删除时会有bug
                                 xid: Date.now(),
                             }),
-
                         }}
                         editable={{
-
                             type: 'multiple',
                             actionRender: (row, config, defaultDoms) => {
                                 return [defaultDoms.delete];
@@ -271,8 +326,6 @@ class CompanyDetail extends React.Component {
 
                     />
                 </ProForm.Item>
-
-
                 <Form.Item>
                     <Button type={"primary"} htmlType={"submit"} onClick={() => {
                         console.log("ssss", this.table)

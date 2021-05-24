@@ -1,6 +1,3 @@
-
-
-
 const RED = false;
 const BLACK = true;
 
@@ -48,11 +45,12 @@ class Entry {
 }
 
 // 红黑树的实现类
-export class Treemap {
-    constructor(comparator = null) {
+export default class Treemap {
+    constructor(root =null,next =null,comparator = null) {
         this.comparator = comparator;
-        this.root = null // 初始化值
+        this.root = root; // 初始化值
         this.size = 0; // 这个size用于记录节点值。用于渲染画布大小
+        this.next = next;
     }
 
     // 插入后平衡
@@ -139,7 +137,7 @@ export class Treemap {
             let k = key;
             do {
                 parent = t;
-                // 这里做比较，支持int类型
+                // 这里做比较，只支持int类型
                 cmp = k - (t.key);
                 if (cmp < 0)
                     t = t.left;
@@ -438,5 +436,10 @@ export class Treemap {
         }
         return null;
     }
+
+
+
 }
+
+
 

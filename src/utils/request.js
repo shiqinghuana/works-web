@@ -61,6 +61,22 @@ export const post = (url,body):Promise=> {
         )
 }
 
+export const upload = (url,body)=>{
+    let formData = new FormData();
+    formData.append("file",body)
+    let init = {
+        method: 'post',
+        body: formData
+    }
+    const request = new Request(url,init);
+    return fetch(request).then((res) => {
+        return res.json()
+    })
+
+
+
+}
+
 //
 // export default class MyRequest extends React.Component{
 //     url;

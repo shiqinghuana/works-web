@@ -17,12 +17,13 @@ export default class BasicLayout extends React.Component {
     render() {
         return (
             <ProLayout
-                logo={()=><Image src={i}
-                                 preview={false}
-                    onClick={() =>{
-                        window.location.pathname = '/'
-                    }}
-                />}
+                // logo={()=><Image src={i}
+                //                  preview={false}
+                //     onClick={() =>{
+                //         window.location.pathname = '/'
+                //     }}
+                // />}
+                logo={false}
                 title={<p style={{fontSize: 25, color: "white"}}>模版页面</p>}
                 route={{routes}}
                 menuItemRender={(item, dom) => {
