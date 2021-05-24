@@ -24,7 +24,20 @@ export default [
             <Redirect to={"/ts/welcome"}/>
         ),
     },
-
+    {
+        path:"/gs",
+        component:BasicLayout,
+        name:"算法可视化",
+        icon: <ShareAltOutlined />,
+        routes: [
+            {
+                path:"/gs/redBlackTree",
+                component:RedBlackTree,
+                name:"红黑树",
+                icon: <RadarChartOutlined/>
+            }
+        ]
+    },
     {
         path: "/ts",
         component:BasicLayout,
@@ -62,21 +75,7 @@ export default [
             },
 
         ]
-    },
-    {
-        path:"/gs",
-        component:BasicLayout,
-        name:"算法可视化",
-        icon: <ShareAltOutlined />,
-        routes: [
-            {
-                path:"/gs/redBlackTree",
-                component:RedBlackTree,
-                name:"红黑树",
-                icon: <RadarChartOutlined/>
-            }
-        ]
-    },
+    }
 
 
 ]
