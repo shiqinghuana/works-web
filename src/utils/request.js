@@ -33,7 +33,6 @@ export const get = (url,errCallBack =errCallBack):Promise=>{
         .then((res) => {
             return  res.json()
         })
-        .then(e => {return  e})
         .catch(
             e => errCallBack.call(e)
         )
@@ -52,16 +51,14 @@ export const post = (url,body):Promise=> {
         .then((res) => {
             return res.json()
         })
-        .then(e => {
-            console.log(e)
-            return e
-        })
         .catch(
             e => errCallBack.call(e)
         )
+
 }
 
 export const upload = (url,body)=>{
+    debugger
     let formData = new FormData();
     formData.append("file",body)
     let init = {
@@ -71,7 +68,9 @@ export const upload = (url,body)=>{
     const request = new Request(url,init);
     return fetch(request).then((res) => {
         return res.json()
-    })
+    }).catch(
+            e => errCallBack.call(e)
+        )
 
 
 

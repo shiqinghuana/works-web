@@ -182,7 +182,7 @@ class CompanyDetail extends React.Component {
                             message.warning("至少提交一条银行卡数据")
                             return
                         }
-
+                        debugger;
                         values.company.fileList = JSON.stringify(this.state.fileList)
                         companyChange(values).then(
                             (e) => {
@@ -262,6 +262,7 @@ class CompanyDetail extends React.Component {
                                     return
                                 }
                                 uploadFile(e.file).then((rsp)=>{
+                                    debugger;
                                     if (rsp.code ===0){
                                         this.setState((state)=>{
                                                 state.fileList.push({"name":e.file.name,"url": rsp.data})
