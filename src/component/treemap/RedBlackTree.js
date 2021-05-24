@@ -10,8 +10,9 @@ import {Space} from "antd";
 import {InputNumber} from "antd";
 
 import {Tooltip} from "antd";
-import {Treemap} from "./TreeMap";
+
 import {message} from "antd";
+import Treemap from "./TreeMap";
 
 // 绘制圆形及文案
 // 文案为 矩形，左上角坐标为圆心坐标减去半斤，
