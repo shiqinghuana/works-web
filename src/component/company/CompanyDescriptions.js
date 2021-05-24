@@ -74,8 +74,8 @@ export default class CompanyDescriptions extends React.Component {
         let e;
         this.companyId = (e=this.props.match.params.companyId)&& e.split("=")[1]
         if (!this.companyId) {
-            message.error("companyId 为空，随机给一个")
-            window.location.pathname = "/ts/companyDescriptions/companyId=44"
+            message.warning("companyId 为空，随机给一个")
+            window.location.pathname = "/ts/companyDescriptions/companyId=2"
         }
     }
 
